@@ -1,0 +1,18 @@
+{
+  "name": "YTD (YouTube Downloader)",
+  "description": "YouTube Downloader by Dipesh Khatiwada",
+  "version": "0.0.0.1",
+  "manifest_version": 2,
+  "icons": {
+    "128": "icon.png"
+  },
+  "author": "Dipesh Khatiwada",
+  "browser_action": {
+     "default_title": "Download YouTube Video",
+     "default_icon" : "icon.png"
+   },
+  "background":{
+    "scripts": ["background.js"]
+  },
+  "permissions": ["activeTab", "clipboardRead", "clipboardWrite","contextMenus", "tabs", "<all_urls>"]
+}
